@@ -1,0 +1,81 @@
+
+/* Albumbeschreibung auf dem Kopfbild 
+  alt:
+  margin: 60px 0 0 0; 
+*/
+#main header .description {
+	background-color: rgba(0,0,0,0.55);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 4px;
+  font-size: 12pt;
+}
+
+#main header .description:hover {
+	background-color: rgba(0,0,0,0.55);
+}
+
+/* Kopfbild  */
+
+#main header .title {
+  background-image: none;
+}
+
+#main header hgroup {
+  margin-top: 22px;
+}
+
+#main header h1 {
+  text-shadow: 2px 3px 5px #000050;
+  margin-left: 0px;
+  color: #f0f0f0;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+/* Rahmen auf der Indexseite 
+*/
+.thumbs td {
+  background-color: rgba(98, 132, 157, 0.6);
+  border-color: #1A325B;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.thumbs td > a:hover, 
+.thumbs td > a:focus {
+	background-color:rgba(0,0,0,0.35);
+}
+
+.thumbs td > a.active {
+	background-color:rgba(0,0,0,0.35);
+}
+
+/* 
+ *
+ * Einzelbilder
+ *
+ */
+
+/* Rahmen  (auch in jAlbum Skin-Konfig/Design, dort läßt sich aber keine Transparenz einstellen)
+*/
+.gallery .img .main {
+  background-color:rgba(60, 60, 60, 0.9);
+}
+
+/* Bildtitel  */
+.gallery .bottom h2 {
+  margin-top: 3px;
+  text-align: center;
+  font-size: 14pt;
+}
+
+/* Bildbeschreibung ("comment")  */
+.gallery .bottom .comment {
+  font-size: 12pt;
+  text-align: center;
+}
+
